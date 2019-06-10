@@ -9,17 +9,17 @@ Section cutting routine for AutoCAD. Applications in numerical modeling, mining,
 
 STEPS:
 1. Load drawing into AutoCAD (note: this routine has been tested and is compatible with v. 2009 - 2019 including Civil 3D).
-2. "SAVEAS" to create a 2nd version of the drawing (i.e. drawing1_sections).
-    a. This is a critical step as the routine will explode nested objects into their consituent parts which may produce undesirable results.
-        i. For example, 3D polylines exploded to lines, meshes to 3D Faces, etc.
+2. "SAVEAS" to create a 2nd version of the drawing (i.e. drawing1_sections).    
+a. This is a critical step as the routine will explode nested objects into their consituent parts which may produce undesirable results. 
+i. For example, 3D polylines exploded to lines, meshes to 3D Faces, etc.
 3. Draw a "LINE" (or >1) where the section is required (note: it must be a LINE, and drawn in plan view / UCS World).
-    a. Routine can only cut vertical sections across the 3D model (i.e. hence why line must be drawn in plan view).
-        i. The workaround for horizontal sections is to manipulate the UCS and flip the model on its side, cut the sections and then flip back again
+a. Routine can only cut vertical sections across the 3D model (i.e. hence why line must be drawn in plan view).
+i. The workaround for horizontal sections is to manipulate the UCS and flip the model on its side, cut the sections and then flip back again
 4. Type "SECUT" into the command line.
 5. Select line(s) that you previously drew. Hit Enter
-    a. Note you may select any number of lines.
+a. Note you may select any number of lines.
 5. Program will prompt whether points are required. Hit Enter
-    a. Hitting enter will default to no. This is fine for most users, the yes option is useful in some circumstances to make the section more visible.
+a. Hitting enter will default to no. This is fine for most users, the yes option is useful in some circumstances to make the section more visible.
 6. Routine will run and update the layer manager with the cut section(s) (note this may take some time depending on the complexity of the drawing / number of sections selected)/
 7. That's it!
 
