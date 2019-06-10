@@ -1,11 +1,11 @@
 # autocad-section_cut
 Section cutting routine for AutoCAD. Applications in numerical modeling, mining, etc.
 
-Note: It is important that users understand and are comfortable manipulating AutoCAD in 3-Dimensions.
+-It is important that users understand and are comfortable manipulating AutoCAD in 3-Dimensions.
       
-      This software (i.e. routine) is provided "as-is" without any warranty. Any results obtained must be checked by the user to confirm correctness.
+-This software (i.e. routine) is provided "as-is" without any warranty. Any results obtained must be checked by the user to confirm correctness.
       
-      Where commands are references (i.e. commands typed into the command line) they will be enclosed by quotations and in CAPS.
+-Where commands are referenced (i.e. commands typed into the command line) they will be enclosed by quotations and in CAPS.
 
 STEPS:
 1. Load drawing into AutoCAD (note: this routine has been tested and is compatible with v. 2009 - 2019 including Civil 3D).
@@ -28,12 +28,13 @@ Note: I cannot stress this enough, please SAVAS and create a 2nd working copy of
 The routine supports most AutoCAD object types (i.e. 3d polylines, lines, meshes, etc). 
 
 That being said the following objects are not (these will be moved to a seperate layer to highlight the issue):
-     Points              - These are 1-Dimensional and as such are not supported
+
+-Points              - These are 1-Dimensional and as such are not supported
      
-     3D Solids, Solids   - Supporting these would involve non-Euclidian geometry which is something I would rather not try to code,
+-3D Solids, Solids   - Supporting these would involve non-Euclidian geometry which is something I would rather not try to code,
                                 however that being said if they can be converted into mesh objects it should work.
                                 
-     Blocks              - These are not supported as blocks, however simply explode them and they should work.
+-Blocks              - These are not supported as blocks, however simply explode them and they should work.
 
 I hope you find this routine useful, I certainly have. It takes quite a bit of time to code something like this so unless i get a large
 number of requests I won't be making regular updates.
