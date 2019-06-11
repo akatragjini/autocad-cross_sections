@@ -11,11 +11,11 @@ Cut and export cross-sections. Useful to individuals constructing numerical mode
 2. Users must be comfortable manipulating (i.e. oribiting) AutoCAD models in 3-Dimensions.
 3. Users must **SAVEAS** to create a working copy of their drawing. The routine will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
 
-**This tool is provided "as-is" without any warranty. Any results obtained must be validated by the user** 
+**THIS TOOL IS PROVIDED AS-IS WITHOUT WARRANTY. ANY RESULTS OBTAINED MUT BE VALIDATED BY THE USER**
 
 ### Installation
 1. Download and save **SECUT.fas** somewhere convenient. 
-2. Load **SECUT.fas** into AutoCAD. Note you can either drag+drop or use the **APPLOAD** command
+2. Load **SECUT.fas** into AutoCAD. Note you can **drag+drop** or use the **APPLOAD** command
 
 STEPS:
 1. Load drawing into AutoCAD (note: this routine has been tested and is compatible with v. 2009 - 2019 including Civil 3D).
