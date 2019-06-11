@@ -1,5 +1,5 @@
-# autocad-section_cut
-Section cutting routine for AutoCAD. Applications in numerical modeling, mining, etc.
+# AutoCAD Cross Section Tool
+## Cut and export cross-sections using AutoCAD's native application support tool. Examples include numerical modeling, mining, hydrogeology, etc. 
 
 -It is important that users understand and are comfortable manipulating AutoCAD in 3-Dimensions.
       
