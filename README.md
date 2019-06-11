@@ -7,7 +7,7 @@ Cut and export cross-sections. Useful to individuals constructing numerical mode
 
 ## Getting Started
 ### Requirements
-1. This was written for AutoCAD however should work for most derivatives (i.e. Civil3D). Note this will not function in LT version.
+1. This was written in AutoCAD 2016 and has been tested in 2009-2019 (including Civil3D).
 2. Users must be comfortable manipulating (i.e. oribiting) AutoCAD models in 3-Dimensions.
 3. Users must **SAVEAS** to create a working copy of their drawing. The routine will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
 
