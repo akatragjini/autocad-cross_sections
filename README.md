@@ -1,8 +1,9 @@
 # AutoCAD Cross Section Tool
 I developed this tool using AutoCAD's LISP programming language several years ago and have since shared it with a number of colleagues in the geotechnical consulting industry. Hopefully you will find it useful as I have over the years.
 
-## Functionality
+### Functionality
 Cut and export cross-sections. Useful to individuals constructing numerical models, mining engineers, hydrogeologists, etc.
+
 
 ## Getting Started
 ### Requirements
@@ -13,8 +14,8 @@ Cut and export cross-sections. Useful to individuals constructing numerical mode
 **This tool is provided "as-is" without any warranty. Any results obtained must be validated by the user** 
 
 ### Installation
-- []. Download and save **SECUT.fas** somewhere convenient. 
-- []. Load **SECUT.fas** into AutoCAD. Note you can either drag+drop or use the **APPLOAD** command
+1. Download and save **SECUT.fas** somewhere convenient. 
+2. Load **SECUT.fas** into AutoCAD. Note you can either drag+drop or use the **APPLOAD** command
 
 STEPS:
 1. Load drawing into AutoCAD (note: this routine has been tested and is compatible with v. 2009 - 2019 including Civil 3D).
