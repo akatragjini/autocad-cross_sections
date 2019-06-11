@@ -15,7 +15,7 @@ Cut and export cross-sections. Useful to individuals constructing numerical mode
 
 ### Installation
 1. Download and save **SECUT.fas** somewhere convenient. 
-2. Load **SECUT.fas** into AutoCAD. Note you can **drag+drop** or use the **APPLOAD** command
+2. Load **SECUT.fas** into AutoCAD. You can **drag+drop** or use the **APPLOAD** command
 
 STEPS:
 1. Load drawing into AutoCAD (note: this routine has been tested and is compatible with v. 2009 - 2019 including Civil 3D).
