@@ -28,7 +28,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
      - **SELECT** the aforementioned **LINE** and hit **Enter**.
      - **Enter** again. Note this will default the response to a no. This is fine in most cases, the yes option is there to address some limited circumstances.
 4. Check the **LAYER** properties manager to manipulate the cross-sections.
-     - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*.
+     - Sections are labeled in alphanumeric sequence with the following format `_Secut-01`.
      - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections.
 6. Additional examples below.
 
@@ -40,7 +40,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 ### Technical 
 An AutoCAD drawing is a collection of objects (i.e. lines, polylines) stored in a proprietary file format. Each object (or entity) has a set of data associated with it. In order for this tool to work it must recognize the data for each entity it processes. AutoCAD contains a lot of different entities and not all of them are recognized by this tool. Some entities are collections of other entities. For example a polyline is a collection of lines. 
 
-The following is a list of entities that are NOT supported by this tool. Any entities that are not supported are moved to a special layer *_Secut-00-INVALID-OBJ* so that the user is made aware.
+The following is a list of entities that are NOT supported by this tool. Any entities that are not supported are moved to a special layer `_Secut-00-INVALID-OBJ` so that the user is made aware.
 
 | Supported | Workaround |
 | --- | --- |
