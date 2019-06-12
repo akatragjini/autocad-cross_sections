@@ -4,23 +4,29 @@ I developed this tool using AutoCAD's LISP programming language several years ag
 ### Functionality
 Cut and export cross-sections. Useful to individuals constructing numerical models, mining engineers, hydrogeologists, etc.
 
+There does exist commercial software (i.e. Deswik, Promine, etc) with this functionality, however the purchase cost can be quite high. I have not been able to find a free alternative to this tool which was part of the reason I made it in the first place.
+
 ![AutoCAD Cross Section Tool](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
 
 ### Requirements
-1. This was written in AutoCAD 2016 and has been tested in 2009-2019 (including Civil3D).
+1. This was written in AutoCAD 2016 but has been tested in 2009-2019 (including Civil3D).
 2. Users must be comfortable manipulating (i.e. oribiting) AutoCAD models in 3-Dimensions.
-3. Users must **SAVEAS** to create a working copy of their drawing. The routine will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
+3. Users must **SAVEAS** to create a working copy of their drawing. I cannot stress this enough, the routin will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
 
 ### Installation
 1. Download and save **SECUT.fas** somewhere convenient. 
-2. Load **SECUT.fas** into AutoCAD. You can **drag+drop** or use the **APPLOAD** command
+2. Load **SECUT.fas** into AutoCAD. You can **drag+drop** or use the **APPLOAD** command.
 
-STEPS:
-1. Load drawing into AutoCAD (note: this routine has been tested and is compatible with v. 2009 - 2019 including Civil 3D).
-2. "SAVEAS" to create a 2nd version of the drawing (i.e. drawing1_sections).    
-a. This is a critical step as the routine will explode nested objects into their consituent parts which may produce undesirable results. 
-i. For example, 3D polylines exploded to lines, meshes to 3D Faces, etc.
+### Instructions
+
+1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections)
+2. Draw a **LINE** (or more than 1) corresponding to the location of your cross-section(s)
+     - Ensure line is drawn in **UCS WORLD** and **PLAN** view
+3. Poop
+
+
+
 3. Draw a "LINE" (or >1) where the section is required (note: it must be a LINE, and drawn in plan view / UCS World).
 a. Routine can only cut vertical sections across the 3D model (i.e. hence why line must be drawn in plan view).
 i. The workaround for horizontal sections is to manipulate the UCS and flip the model on its side, cut the sections and then flip back again
@@ -45,10 +51,9 @@ That being said the following objects are not (these will be moved to a seperate
                                 
 -Blocks              - These are not supported as blocks, however simply explode them and they should work.
 
-I hope you find this routine useful, I certainly have. It takes quite a bit of time to code something like this so unless i get a large
-number of requests I won't be making regular updates.
 
 ## Disclaimer
 
-**This tool is provided as-is without warranty. Any results obtained must be validated by the user**
-       
+This tool is provided as-is without warranty. I accept no responsibility for any decisions made or actions taken as a result of the use of this tool. Any and all results obtained must be validated by the user.
+
+Legal jargon aside, I hope you find this routine as useful as I have over the years. As for updates / bug fixes, it takes quite a bit of time to code something like this so I will push out revised versions at my own discretion based on user comments.   
