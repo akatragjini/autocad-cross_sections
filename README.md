@@ -41,7 +41,7 @@ In order for this tool to work it must recognize the object data. Due to various
 
 The following is a list of objects that are NOT recognized.
 
-| Supported | Workaround |
+| Object | Workaround |
 | --- | --- |
 | Points | 1-Dimensional entities, cannot be sliced |
 | 3D Solids | These involve non-euclidian geometry, however may be converted to meshes |
