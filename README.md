@@ -6,7 +6,7 @@ Cut and export cross-sections. Useful to individuals constructing numerical mode
 
 There does exist commercial software (i.e. Deswik, Promine, etc) with this functionality, however the purchase cost can be quite high. I have not been able to find a free alternative to this tool which was part of the reason I made it in the first place.
 
-![AutoCAD Cross Section Tool](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
+![AutoCAD Cross Section Tool - Cross-Sections across a Stope](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
 
 ### Requirements
@@ -20,21 +20,16 @@ There does exist commercial software (i.e. Deswik, Promine, etc) with this funct
 
 ### Instructions
 
-1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections)
-2. Draw a **LINE** (or more than 1) corresponding to the location of your cross-section(s)
-     - Ensure line is drawn in **UCS WORLD** and **PLAN** view
+1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
+2. Draw **LINE(S)** corresponding to the location of your cross-section(s).
+     - Ensure line is drawn in **UCS WORLD** and **PLAN** view.
      - This tool can only cut vertical cross-sections. To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side then back again.
-3. Poop
+3. Type **SECUT** into the command line.
+     - **SELECT** the aforementioned **LINE(S)** and hit **Enter**.
+     - **Enter** again. 
+          - The prompt
 
 
-
-3. Draw a "LINE" (or >1) where the section is required (note: it must be a LINE, and drawn in plan view / UCS World).
-a. Routine can only cut vertical sections across the 3D model (i.e. hence why line must be drawn in plan view).
-i. The workaround for horizontal sections is to manipulate the UCS and flip the model on its side, cut the sections and then flip back again
-4. Type "SECUT" into the command line.
-5. Select line(s) that you previously drew. Hit Enter
-a. Note you may select any number of lines.
-5. Program will prompt whether points are required. Hit Enter
 a. Hitting enter will default to no. This is fine for most users, the yes option is useful in some circumstances to make the section more visible.
 6. Routine will run and update the layer manager with the cut section(s) (note this may take some time depending on the complexity of the drawing / number of sections selected)/
 7. That's it!
