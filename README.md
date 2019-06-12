@@ -4,7 +4,7 @@ I developed this tool using AutoCAD's LISP programming language several years ag
 ### Functionality
 Cut and export cross-sections. Useful to individuals constructing numerical models, mining engineers, hydrogeologists, etc.
 
-There does exist commercial software (i.e. Deswik, Promine, etc) with this functionality, however the purchase cost can be quite high. I have not been able to find a free alternative to this tool which was part of the reason I made it in the first place.
+This functionality is available in some commercial softwares (i.e. Deswik, Promine, etc) however they are quite expense. I have not been able to find a freely distributed alternative available for AutoCAD.
 
 ![AutoCAD Cross Section Tool - Cross-Sections across a Stope](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
@@ -19,7 +19,7 @@ There does exist commercial software (i.e. Deswik, Promine, etc) with this funct
 2. Load **SECUT.fas** into AutoCAD. You can **drag+drop** or use the **APPLOAD** command.
 
 ### Instructions
-1 **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
+1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
 2. Draw section **LINE** corresponding to the location of your cross-section.
      - Ensure section line is drawn in **UCS WORLD** and **PLAN** view.
      - This tool can only cut vertical cross-sections. To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side then back again.
