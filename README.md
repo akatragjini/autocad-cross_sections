@@ -1,7 +1,7 @@
 # AutoCAD Cross Section Tool
 I developed this tool using AutoCAD's LISP programming language several years ago and have since shared it with a number of colleagues in the geotechnical consulting industry. Hopefully you will find it useful as I have over the years.
 
-### Functionality
+## Functionality
 Cut and export cross-sections. Useful to individuals constructing numerical models, mining engineers, hydrogeologists, etc.
 
 This functionality is available in some commercial softwares (i.e. Deswik, Promine, etc) however they are quite expense. I have not been able to find a freely distributed alternative available for AutoCAD.
@@ -9,16 +9,16 @@ This functionality is available in some commercial softwares (i.e. Deswik, Promi
 ![AutoCAD Cross Section Tool - Cross-Sections across a Stope](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
 
-### Requirements
+## Requirements
 1. This was written in AutoCAD 2016 but has been tested in 2009-2019 (including Civil3D).
 2. Users must be comfortable manipulating (i.e. oribiting) AutoCAD models in 3-Dimensions.
 3. Users must **SAVEAS** to create a working copy of their drawing. I cannot stress this enough, the routin will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
 
-### Installation
+## Installation
 1. Download and save **SECUT.fas** somewhere convenient. 
 2. Load **SECUT.fas** into AutoCAD. You can **drag+drop** or use the **APPLOAD** command.
 
-### Instructions
+## Instructions
 1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
 2. Draw section **LINE** corresponding to the location of your cross-section.
      - Ensure section line is drawn in **UCS WORLD** and **PLAN** view.
@@ -52,7 +52,7 @@ That being said the following objects are not (these will be moved to a seperate
 - [ ] Find workaround to avoid exploding nested objects
 - [ ] Add ability to slice horizontally.
 
-## Disclaimer
+### Disclaimer
 
 This tool is provided as-is without warranty. I accept no responsibility for any decisions made or actions taken as a result of the use of this tool. Any and all results obtained must be validated by the user.
 
