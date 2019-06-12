@@ -12,7 +12,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 ## Requirements
 1. This was written in AutoCAD 2016 but has been tested in 2009-2019 (including Civil3D).
 2. Users must be comfortable manipulating (i.e. oribiting) AutoCAD models in 3-Dimensions.
-3. Users *must* **SAVEAS** to create a working copy of their drawing. The routine will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
+3. Users *must* **SAVEAS** to create a working copy of their drawing. The tool will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
 
 ## Installation
 1. Download and save **SECUT.fas** somewhere convenient. 
