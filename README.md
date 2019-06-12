@@ -1,5 +1,5 @@
 # AutoCAD Cross Section Tool
-This tool was developed using AutoCAD's LISP programming language. In a nutshell this tool is the equivalent of the **3DCLIP/DVIEW** command with the exception that it creates actual cross-sections that can be manipulated and exported.
+This tool was developed using AutoCAD's LISP programming language. In a nutshell this tool is the equivalent of the 3DCLIP / DVIEW command with the exception that it creates actual cross-sections that can be manipulated and exported.
 
 ## Functionality
 Cut cross-sections in AutoCAD. Can be applied to simplify complex 3d geometry (i.e. cavity monitoring surveys), construct numerical models, by mining engineers, geotechs, hydrogeologists, environmental scientists, etc.
