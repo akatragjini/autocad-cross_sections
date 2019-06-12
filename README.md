@@ -23,6 +23,7 @@ There does exist commercial software (i.e. Deswik, Promine, etc) with this funct
 1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections)
 2. Draw a **LINE** (or more than 1) corresponding to the location of your cross-section(s)
      - Ensure line is drawn in **UCS WORLD** and **PLAN** view
+     - This tool can only cut vertical cross-sections. To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side then back again.
 3. Poop
 
 
@@ -52,8 +53,13 @@ That being said the following objects are not (these will be moved to a seperate
 -Blocks              - These are not supported as blocks, however simply explode them and they should work.
 
 
+
+To do - ensure exploded items arent
+add ability to slice horizontaly
+
+
 ## Disclaimer
 
 This tool is provided as-is without warranty. I accept no responsibility for any decisions made or actions taken as a result of the use of this tool. Any and all results obtained must be validated by the user.
 
-Legal jargon aside, I hope you find this routine as useful as I have over the years. As for updates / bug fixes, it takes quite a bit of time to code something like this so I will push out revised versions at my own discretion based on user comments.   
+Legal jargon aside, I hope you find this tool as useful as I have over the years. As for updates / bug fixes, it takes quite a bit of time to code something like this so I will push out revised versions at my own discretion based on user feedback.   
