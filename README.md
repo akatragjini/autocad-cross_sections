@@ -20,7 +20,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 
 ## Instructions
 1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
-2. Draw section **LINE** corresponding to the location of your cross-section.
+2. Draw a section **LINE** corresponding to the location of the cross-section.
      - Ensure section **LINE** is drawn in **UCS WORLD** and **PLAN** view.
      - This tool can only cut vertical cross-sections. To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side then back again.
      - You can select more than one section line at a time.
