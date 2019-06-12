@@ -35,9 +35,9 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 
 
 ### Technical 
-An AutoCAD drawing is a collection of objects (i.e. lines, polylines) stored in a proprietary file format. Each object (or entity) has a set of data associated with it. In order for this tool to work it must recognize the data for each entity it processes. AutoCAD contains a lot of different entities and not all of them are recognized by this tool. Some entities are collections of other entities. For example a polyline is a collection of lines. 
+An AutoCAD drawing is a collection of objects (i.e. lines, polylines) stored in a proprietary file format. Each object has a set of data associated with it. 
 
-The following is a list of entities that are NOT supported by this tool. Any entities that are not supported are moved to a special layer `_Secut-00-INVALID-OBJ` so that the user is made aware.
+In order for this tool to work it must recognize the object data. AutoCAD contains a number of different objects and not all are recognized. The following is a list of objects that are NOT recognized by this tool. Note that these are moved to a special layer `_Secut-00-INVALID-OBJ` so that the user is made aware of the problem.
 
 | Supported | Workaround |
 | --- | --- |
