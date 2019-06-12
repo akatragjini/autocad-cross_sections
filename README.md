@@ -30,7 +30,6 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 4. Check the **LAYER** properties manager to manipulate the cross-sections.
      - Sections are labeled in alphanumeric sequence with the following format `_Secut-01`.
      - Processing time will depend based on the complexity of the drawing and number of cross-sections.
-6. Additional example below.
 
 ![AutoCAD Cross Section Tool - Topography + Underground Workings](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_2.gif)
 
