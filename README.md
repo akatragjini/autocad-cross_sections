@@ -37,7 +37,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 ### Technical 
 An AutoCAD drawing is a collection of objects (i.e. lines, polylines) stored in a proprietary file format. Each object has a set of data associated with it. 
 
-In order for this tool to work it must recognize the object data. Due to various reasons not all objects are recognized, however these objects are moved to a special layer `_Secut-00-INVALID-OBJ` so that the user is made aware of the problem.
+In order for this tool to work it must recognize the object data. Due to various reasons not all objects are recognized. These objects not recognized are moved to a special layer `_Secut-00-INVALID-OBJ` so that the user is made aware of the problem.
 
 The following is a list of objects that are NOT recognized.
 
@@ -50,8 +50,8 @@ The following is a list of objects that are NOT recognized.
     
 
 ### Task List
-- [ ] Find workaround to avoid exploding nested objects
-- [ ] Add ability to slice horizontally.
+- [ ] Avoid exploding nested objects.
+- [ ] Slice horizontally.
 
 ### Disclaimer
 This tool is provided as-is without warranty. I accept no responsibility for any decisions made or actions taken as a result of the use of this tool. Any and all results obtained must be validated by the user.
