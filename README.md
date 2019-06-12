@@ -30,10 +30,11 @@ This functionality is available in some commercial softwares (i.e. Deswik, Promi
 4. Check the **LAYER** properties manager to manipulate your cross-sections
      - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*
      - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections
-5. That's it!
+5. That's it, you can now export, rotate or manipulate the cross-sections.
 
 ### Technical 
 
+All lines
 
 The routine supports most AutoCAD object types (i.e. 3d polylines, lines, meshes, etc). 
 
@@ -46,11 +47,10 @@ That being said the following objects are not (these will be moved to a seperate
                                 
 -Blocks              - These are not supported as blocks, however simply explode them and they should work.
 
+### Task List
 
-
-To do - ensure exploded items arent
-add ability to slice horizontaly
-
+- [] Find workaround to avoid exploding nested objects
+- [] Add ability to slice horizontally.
 
 ## Disclaimer
 
