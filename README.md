@@ -3,7 +3,7 @@ I developed this tool using AutoCAD's LISP programming language several years ag
 
 ### Functionality
 Cut and export cross-sections. Useful to individuals constructing numerical models, mining engineers, hydrogeologists, etc.
-![alt text](https://github.com/akatragjini/autocad-cross_section_tool/tree/master/README/Example 1.gif "Logo Title Text 1")
+![alt text](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
 ## Getting Started
 ### Requirements
