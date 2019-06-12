@@ -4,7 +4,7 @@ This tool was developed using AutoCAD's LISP programming language. I hope you wi
 ## Functionality
 Cut cross-sections in AutoCAD. Can be applied to simplify complex 3d geometry (i.e. cavity monitoring surveys), construct numerical models, by mining engineers, geotechs, hydrogeologists, environmental scientists, etc.
 
-This functionality is available in some commercial software (i.e. Deswik, Promine, Minesight) however the Promine version is priced at at $1,500 anually.
+This functionality is available in some commercial software (i.e. Deswik, Promine, Minesight) however the Promine version which is compatible with AutoCAD is priced at at $1,500 anually.
 
 ![AutoCAD Cross Section Tool - Cross-Sections across a Stope](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
