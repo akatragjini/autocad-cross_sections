@@ -21,20 +21,35 @@ This functionality is available in some commercial softwares (i.e. Deswik, Promi
 ## Instructions
 1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
 2. Draw section **LINE** corresponding to the location of your cross-section.
-     - Ensure section line is drawn in **UCS WORLD** and **PLAN** view.
+     - Ensure section **LINE** is drawn in **UCS WORLD** and **PLAN** view.
      - This tool can only cut vertical cross-sections. To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side then back again.
      - You can select more than one section line at a time.
 3. Type **SECUT** into the command line.
-     - **SELECT** the aforementioned **LINE(S)** and hit **Enter**.
-     - **Enter** again. Note this will default the response to no. This is fine in most cases, the yes option is there to address some limited circumstances.
+     - **SELECT** the aforementioned **LINE** and hit **Enter**.
+     - **Enter** again. Note this will default the response to a no. This is fine in most cases, the yes option is there to address some limited circumstances.
 4. Check the **LAYER** properties manager to manipulate your cross-sections
      - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*
      - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections
 5. That's it, you can now export, rotate or manipulate the cross-sections.
 
-### Technical 
 
-All lines
+### Technical 
+An AutoCAD drawing is a collection of objects (i.e. lines, polylines) stored in a proprietary file format. Each object (or entity) has a set of data associated with it. In order for this tool to work it must recognize the data for each entity it processes. AutoCAD contains a lot of different entities and not all of them are recognized by this tool. Some entities are collections of other entities. For example a polyline is a collection of lines. 
+
+The following is a list of entities that are NOT supported by this tool. Any entities that are not supported are moved to a special layer *_Secut-00-INVALID-OBJ* so that the user is made aware.
+
+| Supported | Workaround |
+| --- | --- |
+| Points | 1-Dimensional entities, cannot be sliced |
+| 3D Solids | These involve non-euclidian geometry |
+| Solids | These involve non-euclidian geometry  |
+| Blocks | Not directly supported however can be exploded  |
+
+
+
+
+
+
 
 The routine supports most AutoCAD object types (i.e. 3d polylines, lines, meshes, etc). 
 
