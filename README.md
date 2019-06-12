@@ -49,8 +49,8 @@ That being said the following objects are not (these will be moved to a seperate
 
 ### Task List
 
-- [] Find workaround to avoid exploding nested objects
-- [] Add ability to slice horizontally.
+- [ ] Find workaround to avoid exploding nested objects
+- [ ] Add ability to slice horizontally.
 
 ## Disclaimer
 
