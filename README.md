@@ -7,13 +7,12 @@ Cut and export cross-sections. Useful to individuals constructing numerical mode
 ![AutoCAD Cross Section Tool](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
 
-## Getting Started
 ### Requirements
 1. This was written in AutoCAD 2016 and has been tested in 2009-2019 (including Civil3D).
 2. Users must be comfortable manipulating (i.e. oribiting) AutoCAD models in 3-Dimensions.
 3. Users must **SAVEAS** to create a working copy of their drawing. The routine will explode some nested objects (i.e. polylines to lines) which may produce undesirable results.
 
-**THIS TOOL IS PROVIDED AS-IS WITHOUT WARRANTY. ANY RESULTS OBTAINED MUT BE VALIDATED BY THE USER**
+**This tool is provided as-is without warranty. Any results obtained must be validated by the user**
 
 ### Installation
 1. Download and save **SECUT.fas** somewhere convenient. 
