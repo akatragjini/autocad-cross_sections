@@ -1,5 +1,5 @@
 # AutoCAD Cross Section Tool
-This tool using AutoCAD's LISP programming language. I hope you will find it as useful as I have over the years.
+This tool was developed using AutoCAD's LISP programming language. I hope you will find it as useful as I have over the years.
 
 ## Functionality
 Cut cross-sections. Can be applied to simplify complex 3d geometry (i.e. cavity monitoring surveys), construct numerical models, by mining engineers, geotechs, hydrogeologists, environmental scientists, etc.
