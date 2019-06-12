@@ -19,8 +19,7 @@ There does exist commercial software (i.e. Deswik, Promine, etc) with this funct
 2. Load **SECUT.fas** into AutoCAD. You can **drag+drop** or use the **APPLOAD** command.
 
 ### Instructions
-
-1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
+1 **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
 2. Draw section **LINE** corresponding to the location of your cross-section.
      - Ensure section line is drawn in **UCS WORLD** and **PLAN** view.
      - This tool can only cut vertical cross-sections. To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side then back again.
@@ -29,12 +28,12 @@ There does exist commercial software (i.e. Deswik, Promine, etc) with this funct
      - **SELECT** the aforementioned **LINE(S)** and hit **Enter**.
      - **Enter** again. Note this will default the response to no. This is fine in most cases, the yes option is there to address some limited circumstances.
 4. Check the **LAYER** properties manager to manipulate your cross-sections
-     - Sections are labeled in alphanumeric sequence with the following format "_Secut-##"
+     - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*
+     - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections
+5. That's it!
 
+### Technical 
 
-
-6. Routine will run and update the layer manager with the cut section(s) (note this may take some time depending on the complexity of the drawing / number of sections selected)/
-7. That's it!
 
 The routine supports most AutoCAD object types (i.e. 3d polylines, lines, meshes, etc). 
 
