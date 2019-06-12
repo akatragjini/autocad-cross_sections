@@ -2,7 +2,7 @@
 This tool was developed using AutoCAD's LISP programming language. I hope you will find it as useful as I have.
 
 ## Functionality
-Cut cross-sections. Can be applied to simplify complex 3d geometry (i.e. cavity monitoring surveys), construct numerical models, by mining engineers, geotechs, hydrogeologists, environmental scientists, etc.
+Cut cross-sections in AutoCAD, can be applied to simplify complex 3d geometry (i.e. cavity monitoring surveys), construct numerical models, by mining engineers, geotechs, hydrogeologists, environmental scientists, etc.
 
 This functionality is available in some commercial software (i.e. Deswik, Promine, etc) however the cost of such software can be quite high. I have not been able to find a freely distributed alternative available for AutoCAD.
 
