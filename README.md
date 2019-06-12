@@ -6,7 +6,7 @@ Cut cross-sections in AutoCAD. Can be applied to simplify complex 3d geometry (i
 
 This functionality is available in some commercial software (i.e. Deswik, Promine, Minesight) however the Promine version which is compatible with AutoCAD is priced at at $1,500 anually.
 
-![AutoCAD Cross Section Tool - Cross-Sections across a Stope](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
+![Stope](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_1.gif)
 
 
 ## Requirements
@@ -31,7 +31,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
      - Sections are labeled in alphanumeric sequence with the following format `_Secut-01`.
      - Processing time will depend based on the complexity of the drawing and number of cross-sections.
 
-![AutoCAD Cross Section Tool - Topography + Underground Workings](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_2.gif)
+![Topography and underground workings](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_2.gif)
 
 
 ### Technical 
