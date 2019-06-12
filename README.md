@@ -2,7 +2,7 @@
 I developed this tool using AutoCAD's LISP programming language several years ago and have since shared it with a number of colleagues in the geotechnical consulting industry. Hopefully you will find it useful as I have over the years.
 
 ## Functionality
-Cut and export cross-sections. Useful to individuals constructing numerical models, mining engineers, hydrogeologists, etc.
+Cut and export cross-sections. Can be applied to simplify complex 3d geometry (i.e. cavity monitoring surveys), construct numerical models, by mining engineers, hydrogeologists, etc.
 
 This functionality is available in some commercial softwares (i.e. Deswik, Promine, etc) however they are quite expense. I have not been able to find a freely distributed alternative available for AutoCAD.
 
@@ -31,6 +31,11 @@ This functionality is available in some commercial softwares (i.e. Deswik, Promi
      - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*
      - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections
 5. That's it, you can now export, rotate or manipulate the cross-sections.
+6. Additional examples below.
+
+![AutoCAD Cross Section Tool - Cavity Monitoring Survey](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_2.gif)
+
+![AutoCAD Cross Section Tool - Topography + Underground Workings](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_3.gif)
 
 
 ### Technical 
@@ -41,26 +46,10 @@ The following is a list of entities that are NOT supported by this tool. Any ent
 | Supported | Workaround |
 | --- | --- |
 | Points | 1-Dimensional entities, cannot be sliced |
-| 3D Solids | These involve non-euclidian geometry |
-| Solids | These involve non-euclidian geometry  |
-| Blocks | Not directly supported however can be exploded  |
-
-
-
-
-
-
-
-The routine supports most AutoCAD object types (i.e. 3d polylines, lines, meshes, etc). 
-
-That being said the following objects are not (these will be moved to a seperate layer to highlight the issue):
-
--Points              - These are 1-Dimensional and as such are not supported
-     
--3D Solids, Solids   - Supporting these would involve non-Euclidian geometry which is something I would rather not try to code,
-                                however that being said if they can be converted into mesh objects it should work.
-                                
--Blocks              - These are not supported as blocks, however simply explode them and they should work.
+| 3D Solids | These involve non-euclidian geometry, however may be converted to meshes |
+| Solids | These involve non-euclidian geometry, howevever may be converted to meshes  |
+| Blocks | Not directly supported however can be exploded into objects that may be supported  |
+    
 
 ### Task List
 
