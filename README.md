@@ -43,10 +43,10 @@ The following is a list of objects that are NOT recognized.
 
 | Object | Workaround |
 | --- | --- |
-| Points | 1-Dimensional entities, cannot be sliced |
-| 3D Solids | These involve non-euclidian geometry, however may be converted to meshes |
-| Solids | These involve non-euclidian geometry, howevever may be converted to meshes  |
-| Blocks | Not directly supported however can be exploded into objects that may be supported  |
+| Point | 1-Dimensional entities, cannot be sliced |
+| 3D Solid | These involve non-euclidian geometry, however may be converted to meshes |
+| Solid | These involve non-euclidian geometry, howevever may be converted to meshes  |
+| Block | Not directly supported however can be exploded into objects that may be supported  |
     
 
 ### Task List
