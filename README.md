@@ -29,7 +29,7 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
      - **Enter** again. Note this will default the response to a no. This is fine in most cases, the yes option is there to address some limited circumstances.
 4. Check the **LAYER** properties manager to manipulate the cross-sections.
      - Sections are labeled in alphanumeric sequence with the following format `_Secut-01`.
-     - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections.
+     - Processing time will depend based on the complexity of the drawing and number of cross-sections.
 6. Additional examples below.
 
 ![AutoCAD Cross Section Tool - Cavity Monitoring Survey](https://github.com/akatragjini/autocad-cross_section_tool/blob/master/README/Example_2.gif)
