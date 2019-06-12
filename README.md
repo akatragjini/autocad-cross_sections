@@ -27,9 +27,9 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 3. Type **SECUT** into the command line.
      - **SELECT** the aforementioned **LINE** and hit **Enter**.
      - **Enter** again. Note this will default the response to a no. This is fine in most cases, the yes option is there to address some limited circumstances.
-4. Check the **LAYER** properties manager to manipulate your cross-sections
-     - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*
-     - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections
+4. Check the **LAYER** properties manager to manipulate your cross-sections.
+     - Sections are labeled in alphanumeric sequence with the following format *_Secut-01*.
+     - The tool is very well optimized however this can take some time depending on the complexity of the drawing and number of cross-sections.
 5. That's it, you can now export, rotate or manipulate the cross-sections.
 6. Additional examples below.
 
