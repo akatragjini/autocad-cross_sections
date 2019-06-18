@@ -38,7 +38,7 @@ An AutoCAD drawing is a collection of objects (i.e. lines, polylines) stored in 
 
 In order for this tool to work it must recognize the object data. Due to various reasons not all objects are recognized. These objects not recognized are moved to a special layer `_Secut-00-INVALID-OBJ` so that the user is made aware of the problem.
 
-The following is a list of objects that are NOT recognized. Some objects (i.e. solids) are inherently more difficult to deal with due to non-euclidian geometry however they can be recognized if their shape is converted to a collection of 3D Faces
+The following is a list of objects that are NOT recognized. For example, some objects (i.e. solids) are inherently more difficult to deal with due to non-euclidian geometry however they can be recognized if their shape is converted to a collection of 3D Faces
 
 | Object | Workaround |
 | --- | --- |
