@@ -22,10 +22,9 @@ This functionality is available in some commercial software (i.e. Deswik, Promin
 1. **SAVEAS** to create a working copy of the drawing (i.e. drawing1_sections).
 2. Draw a section **LINE** corresponding to the location of the cross-section.
      - Ensure the section **LINE** is drawn in **UCS WORLD** and **PLAN** view.
-     - You may select more than one section line at a time.
      - This tool can cut in the vertical direction (i.e. section line drawn on the xy plane) To cut in the horizontal direction (i.e. elevation) the UCS must be manipulated to flip the model on its side, cut the section then flipped back again.
 3. Type **SECUT** into the command line.
-     - **SELECT** the aforementioned **LINE** and hit **Enter**.
+     - **SELECT** the aforementioned **LINE** and hit **Enter** (you may select more than one line at a time).
      - **Enter** again. Note this will default the response to a no. This is fine in most cases, the yes option is there to address some limited circumstances.
 4. Check the **LAYER** properties manager to manipulate the cross-sections.
      - Sections are labeled in alphanumeric sequence with the following format `_Secut-01`.
